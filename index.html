@@ -8,13 +8,13 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-
     <title>Rasa Buah</title>
 </head>
 
 <body>
     <header>
         <nav>
+            <!-- <img src="logo.png" alt="Logo Media Belajar" width="50px">  -->
             <h1>RASA BUAH</h1>
             <ul>
                 <li><a href="#Home">Home</a></li>
@@ -25,14 +25,20 @@
     </header>
     <hr>
     <main>
-        <section class="content" id="About">
-            <img src="toko buah.jpg" alt="Logo Media Belajar" width="200px">
-            <p>Toko buah yang menyediakan beragam pilihan buah yang segar dan berkualitas tinggi. Dengan koleksi buah
-                lokal
-                dan impor, Toko Rasa Buah memberikan pengalaman berbelanja yang menyenangkan. Temukan buah-buahan
-                terbaik
-                untuk kesehatan Anda, di Toko Rasa Buah!</p>
+        <section class="about-section" id="Home">
+            <article>
+                <h3>RASA BUAH</h3>
+                <p>Toko buah yang menyediakan beragam pilihan buah yang segar dan berkualitas tinggi. Dengan koleksi buah
+                    lokal
+                    dan impor, Toko Rasa Buah memberikan pengalaman berbelanja yang menyenangkan. Temukan buah-buahan
+                    terbaik
+                    untuk kesehatan Anda, di Toko Rasa Buah!</p>
+                <a href="#More" class="button">Selengkapnya</a>
+            </article>
+            <img src="toko buah.jpg" alt="Toko Rasa Buah" width="200px"> 
+        </section>
 
+        <section class="services-section" id="About">
             <h2>Layanan Kami</h2>
             <p>Toko Rasa Buah menyediakan buah segar berkualitas tinggi langsung dari petani lokal dan import. Kami
                 menawarkan berbagai pilihan buah dengan harga terjangkau dan pengiriman cepat.</p>
@@ -72,11 +78,11 @@
         </section>
 
         <h2>Daftar Produk Kami</h2>
-        <section class="product-list" id="Products">
+        <section class="products">
             <article class="product-card">
                 <figure>
                     <img src="jeruk.jpg" alt="Buah">
-                    <figcaption>Jeruk Mandarin.</figcaption>
+                    <figcaption>Jeruk Mandarin</figcaption>
                 </figure>
                 <h3>Rp.45.000</h3>
                 <p>Kategori : Buah import</p>
@@ -120,11 +126,13 @@
             </form>
         </section>
     </main>
-    <footer>
-        <a href="https://www.instagram.com/xryyshaa/"><i class="fa-brands fa-instagram"></i><a href=""></a>
-            <p>Marsha Dwi | 2024 All Rights</p>
-    </footer>
+    <aside class="social-icons">
+        <a href="https://www.instagram.com/xryyshaa/"><i class="fa-brands fa-instagram"></i></a>
+    </aside>
 
+    <footer>
+        <p>Marsha Dwi | 2024 All Rights</p>
+    </footer>
 
 </body>
 
